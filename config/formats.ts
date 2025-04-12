@@ -4591,4 +4591,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		battle: { trunc: Math.trunc },
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
+	{
+		section: "Torneio SESI",
+	},
+	{
+		name: "[Gen 9] Teste Torneio SESI",
+		desc: `Teste torneio SESI`,
+		gameType: 'doubles',
+		bestOfDefault: true,
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Open Team Sheets', 'Limit One Restricted'],
+		restricted: ['Restricted Legendary'],
+	},
 ];
